@@ -121,14 +121,14 @@ public class OperacionesDepart extends JDialog {
 				String nom, pob;
 				ODB odb=ODBFactory.open(BBDD);
 				
-				insertDep(odb);
+				insertDep1(odb);
 			}
 
-			private void insertDep(ODB odb) {
+			private void insertDep1(ODB odb) {
 				int num;
 				String nom;
 				String pob;
-				insertDep(odb);
+				insertDep1(odb);
 			}
 
 			private void insertDep(ODB odb) {
