@@ -121,6 +121,20 @@ public class OperacionesDepart extends JDialog {
 				String nom, pob;
 				ODB odb=ODBFactory.open(BBDD);
 				
+				insertDep(odb);
+			}
+
+			private void insertDep(ODB odb) {
+				int num;
+				String nom;
+				String pob;
+				insertDep(odb);
+			}
+
+			private void insertDep(ODB odb) {
+				int num;
+				String nom;
+				String pob;
 				try{
 					num=Integer.parseInt(txNumDepart.getText());
 					comprobarNumDepart(odb, num);
